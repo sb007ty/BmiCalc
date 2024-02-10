@@ -1,0 +1,30 @@
+.App {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: grid;
+  background-color: pink;
+  margin: auto;
+  justify-items: center;
+  grid-gap: 10px;
+  width: 50%;
+  min-height: 600px;
+  grid-template-columns: 100%;
+  border-radius: 20px;
+  grid-template-rows: repeat(5, 100px);
+}
+
+.item {
+  text-align: center;
+}
+.item-5 {
+  grid-area: 5/1/6/1;
+}
+
+h2 {
+  /* margin-left: 10px; */
+  text-align: center;
+}
